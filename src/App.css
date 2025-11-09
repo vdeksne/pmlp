@@ -14,18 +14,18 @@
 }
 .block {
   cursor: pointer;
-  transition: scale 0.2s ease;
+  transition: all 0.2s ease-in-out;
 }
 
 .block:hover {
-  scale: 1.02;
+  scale: 1.01;
 }
 .footer {
   text-align: left;
   font-size: 0.875rem;
   color: #64748b;
   width: 100%;
-  padding: 2rem;
+  padding: 1rem 2rem;
   background: #fff;
   border-radius: 0.1875rem 0.1875rem 0 0;
   border: 1px solid #dbdee4;
@@ -280,9 +280,37 @@
   }
   .card-container {
     flex-direction: column;
+    margin-top: 5rem;
   }
   .language-switch button {
     padding: 0.5rem 0.5rem;
     font-size: 0.5rem;
+  }
+}
+
+@media (max-width: 480px) {
+  .features h2 {
+    font-size: 1.5rem;
+    margin-bottom: 0;
+  }
+  .features ul {
+    font-size: 0.75rem;
+  }
+  .features li {
+    font-size: 0.75rem;
+  }
+  .features {
+    padding: 1rem;
+    overflow: scroll;
+  }
+  .bg-image {
+    object-fit: cover;
+    height: 18rem;
+    margin-bottom: 0;
+  }
+  .footer {
+    margin-top: 5rem;
+    font-size: 0.7rem;
+    padding: 1rem;
   }
 }

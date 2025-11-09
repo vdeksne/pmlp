@@ -9,8 +9,7 @@ const content = {
   en: {
     langLabel: "English",
     title: "Personal & Small App Hosting",
-    tagline:
-      "© 2025 Office of Citizenship and Migration Affairs, all rights to the published content are reserved.",
+    tagline: `© ${new Date().getFullYear()} Ministry of the Interior of the Republic of Latvia, Office of Citizenship and Migration Affairs. All rights to the published content are reserved.`,
     primaryCta: "epak.pmlp.gov.lv",
     secondaryCta: "vizucelvedis.bumbierkoks.eu",
     featureHeading: "Visa Application",
@@ -28,13 +27,12 @@ const content = {
   lv: {
     langLabel: "Latviešu",
     title: "Personīgām un nelielām lietotnēm",
-    tagline:
-      "© 2025 Pilsonības un migrācijas lietu pārvalde, publicētā satura visas tiesības aizsargātas.",
+    tagline: `© ${new Date().getFullYear()} LR IeM Pilsonības un migrācijas lietu pārvalde, publicētā satura visas tiesības aizsargātas.`,
     primaryCta: "epak.pmlp.gov.lv",
     secondaryCta: "vizucelvedis.bumbierkoks.eu",
     featureHeading: "Vīzas pieteikums",
     featureList: [
-      "Publisks pakalpojums, kas dod iespēju Šen genas vīzas pieteikumu aizpildīt elektroniski",
+      "Publisks pakalpojums, kas dod iespēju Šengenas vīzas pieteikumu aizpildīt elektroniski",
       "Un Ilgtermiņa vīzas pieteikumu aizpildīt elektroniski",
     ],
     featureHeading2: "Vīzu ceļvedis",
